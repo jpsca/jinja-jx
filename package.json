@@ -4,6 +4,9 @@
   "description": "Highlighter for the JX components template syntax",
   "version": "0.0.1",
   "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpsca/jinja-jx"},
   "engines": {
     "vscode": "^1.102.0"
   },
