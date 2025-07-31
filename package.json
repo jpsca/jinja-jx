@@ -1,0 +1,26 @@
+{
+  "name": "jinja-jx",
+  "displayName": "Jinja JX",
+  "description": "Highlighter for the JX components template syntax",
+  "version": "0.0.1",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "jinja-jx",
+      "aliases": ["Jinja JX", "jinja-jx"],
+      "extensions": [".jx",".jx.jinja"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "jinja-jx",
+      "scopeName": "text.html.jinja.jx",
+      "path": "./syntaxes/jinja-jx.tmLanguage.json"
+    }]
+  }
+}

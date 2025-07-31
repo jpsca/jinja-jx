@@ -1,0 +1,30 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Jinja JX",
+	"scopeName": "text.html.jinja.jx",
+	"foldingStartMarker": "(<(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(block|filter|for|if|macro|raw))",
+  "foldingStopMarker": "(</(?i:(head|table|tr|div|style|script|ul|ol|form|dl))\\b.*?>|{%\\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\\s*%})",
+  "patterns": [
+		{
+			"include": "source.jinja"
+    },
+		{
+			"name": "meta.tag.component.jx",
+			"begin": "(</?)([A-Z][0-9A-Za-z_.:$-]*)[^\\s<>]*(?<!/)",
+			"captures": {
+				"1": { "name": "punctuation.definition.tag.begin.html" },
+				"2": { "name": "variable.other.jinja" }
+			},
+			"end": "((?: ?/)?>)",
+			"endCaptures": {
+				"1": { "name": "punctuation.definition.tag.end.html" }
+			},
+			"patterns": [
+				{ "include": "source.jinja#expression" }
+			]
+		},
+    {
+      "include": "text.html.basic"
+    }
+	]
+}
