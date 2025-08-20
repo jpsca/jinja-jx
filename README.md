@@ -2,10 +2,10 @@
   <img
     alt="icon"
     src="https://raw.githubusercontent.com/jpsca/jinja-jx/main/logo.png"
-    height="50"
+    height="80"
     valign="middle"
   />
-  Jinja JX
+  &nbsp; Jinja JX
 </h1>
 
 Highlighter for the [JX components](https://github.com/jpsca/jx) template syntax. It will activate by default with all files with a `.jinja` extension.
