@@ -16,16 +16,25 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "jinja-jx",
-      "aliases": ["Jinja JX", "jinja-jx"],
-      "extensions": [".jinja"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "jinja-jx",
-      "scopeName": "text.html.jinja.jx",
-      "path": "./syntaxes/jinja-jx.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "jinja-jx",
+        "aliases": [
+          "Jinja JX",
+          "jinja-jx"
+        ],
+        "extensions": [
+          ".jinja"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "jinja-jx",
+        "scopeName": "text.html.jinja.jx",
+        "path": "./syntaxes/jinja-jx.tmLanguage.json"
+      }
+    ]
   }
 }

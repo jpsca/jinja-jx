@@ -1,8 +1,8 @@
 <h1>
   <img
     alt="icon"
-    src="https://raw.githubusercontent.com/jpsca/jinja-jx/main/icon.png"
-    width="50" height="50"
+    src="https://raw.githubusercontent.com/jpsca/jinja-jx/main/logo.png"
+    height="50"
     valign="middle"
   />
   Jinja JX
