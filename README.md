@@ -8,7 +8,7 @@
   Jinja JX
 </h1>
 
-Highlighter for the [JX components](https://github.com/jpsca/jx) template syntax.
+Highlighter for the [JX components](https://github.com/jpsca/jx) template syntax. It will activate by default with all files with a `.jinja` extension.
 
 ![Before / After](https://raw.githubusercontent.com/jpsca/jinja-jx/main/images/before-after.gif)
 

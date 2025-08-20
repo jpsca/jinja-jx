@@ -2,11 +2,13 @@
   "name": "jinja-jx",
   "displayName": "Jinja JX",
   "description": "Highlighter for the JX components template syntax",
-  "version": "0.0.1",
+  "version": "1.0.1",
+  "publisher": "jpscaletti",
   "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jpsca/jinja-jx"},
+    "url": "https://github.com/jpsca/jinja-jx"
+  },
   "engines": {
     "vscode": "^1.102.0"
   },
@@ -17,7 +19,7 @@
     "languages": [{
       "id": "jinja-jx",
       "aliases": ["Jinja JX", "jinja-jx"],
-      "extensions": [".jx",".jx.jinja"],
+      "extensions": [".jinja"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
